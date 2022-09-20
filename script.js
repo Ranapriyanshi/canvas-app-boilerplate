@@ -1,4 +1,5 @@
 /* Iteration 4: Make the Everything Work */
+
 const buttonsky = document.getElementById("buttonsky");
 const  imgsky = document.getElementById("sky");
 buttonsky.oninput = () =>{
@@ -23,3 +24,4 @@ const  imgcheeks = document.getElementById("cheeks");
 buttoncheeks.oninput = () =>{
     imgcheeks.style.fill = buttoncheeks.value;
 }
+
