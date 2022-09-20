@@ -1,4 +1,8 @@
 /* Iteration 4: Make the Everything Work */
+const buttonsky = document.getElementById("buttonsky");
+const  imgsky = document.getElementById("sky");
+buttonsky.oninput = () =>{
+    imgsky.style.fill = buttonsky.value;
 const buttonground = document.getElementById("buttonground");
 const  imgground = document.getElementById("ground");
 buttonground.oninput = () =>{
